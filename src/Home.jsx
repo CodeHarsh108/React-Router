@@ -1,8 +1,13 @@
 function Home() {
   return (
-    <div>
-      <h1>Home Page</h1>
-      <p>Welcome to the home page!</p>
+    <div className="flex flex-col items-center justify-center py-12">
+      <div className="max-w-2xl mx-auto text-center bg-white p-8 rounded-lg shadow-md">
+        <h1 className="text-4xl font-bold text-blue-600 mb-6">Home Page</h1>
+        <p className="text-xl text-gray-700 leading-relaxed">
+          Welcome to our application! This is the home page where you can find all the 
+          essential information about our services and features.
+        </p>
+      </div>
     </div>
   );
 }
