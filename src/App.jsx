@@ -12,7 +12,7 @@ function App() {
       <div className='min-h-screen bg-gray-50 flex flex-col'>
         <header className='bg-white shadow-sm'>
           <div className='container mx-auto px-4 py-6'>
-            <h1 className='text-3xl font-bold text-blue-600'>My React Router App</h1>
+            <h1 className='text-3xl font-bold text-blue-600 text-center'>My React Router App</h1>
           </div>
         </header>
         
