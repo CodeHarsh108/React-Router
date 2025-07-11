@@ -5,6 +5,7 @@ import About from './About';
 import Contact from './Contact';
 import Team from './Team';
 import NotFound from './NotFound';
+import CurrentLocation from './CurrentLocation';
 
 function App() {
   return (
@@ -46,7 +47,7 @@ function App() {
             </ul>
           </div>
         </nav>
-        
+        <CurrentLocation />
         <main className='flex-grow container mx-auto px-4 py-8'>
           <Routes>
             <Route path='/' element={<Home />}/>
